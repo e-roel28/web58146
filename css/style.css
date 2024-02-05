@@ -1,0 +1,31 @@
+.nav{
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display:inline;
+    margin-right:20px;
+}
+.nav a {
+    color:blue;
+}
+.copy{
+    font-size:25px;
+    color:rgb(211, 146, 62);
+    background-color:rgb(255, 255, 255);
+}
+.container {
+    width:400px;
+    margin:0 auto;  
+    border: 5px double rgb(9, 32, 105);
+    padding: 25px;
+    background-color: rgb(235, 240, 250, 0.815);
+}
+.copy {
+    font-size: 40 px;
+    color:rgb(38, 86, 141);
+    background-color: rgba(235, 240, 250, 0.815);
+}
+div.a {
+    text-align: center;
+  }
