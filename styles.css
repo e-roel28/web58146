@@ -1,0 +1,14 @@
+body {
+   background-color: aliceblue;
+    font-size: 50pt;
+}
+
+button {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(120, 177, 239);
+    font-size: 100pt;
+}
+#fortune-display {
+    font-size: 200px;
+}

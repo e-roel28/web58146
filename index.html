@@ -3,50 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Roel</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Mali" rel= "stylesheet">
-    <div class="container">
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-       </div>    
-<text-align>
-    <ol>Created 1/20/2024</ol>
-    <h1>2023 Recap of My Dog</h1>
-</text-align>
-       <style>
-        body {
-            font-family: "Mali" ;font-size: 22px;
-            text-align: center;
-        }
-       </style>
-     <style>
-        img {
-            border: 15px outset rgb(150, 127, 85);
-            margin-bottom: 50px;
-            margin-top: 50px;
-        }
-     </style>        
+    <title>8-Ball</title>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css"><link>
 </head>
-<body> 
-    <style>
-   body {
-    background-color: rgb(255, 255, 255)
+<body>
+    Hello! Shake this mysterious button to answer your dying questions!
+    <li>BEWARE, YOUR FORTUNE WILL SHOCK YOU 😲</li>
+ <style>
+    body{
+        background-image: url("fortune_image.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
     }
-    </style>
-    <h2>This is my dog, Sammy, short for Sammuel</h2>
-    <p>(We call him Sammuel when he's naughty)</p>
-    <div>
-        <img src="images/cutiepatootie.JPG" width="500px" style="margin-left: 1%">
-    </div>
-    <div class="copy">
-            <p>He's had a very interesting year, from dressing him in silly costumes to traveling with him to different places.</p>
-            <p>Sammy is currently 6 years old, and his birthday is May 3rd. His breed is a Yorkshire Terrier, but he's a bit bigger and furrier than the typical yorkie 😅</p>
-            <p>You can learn even more about Sammy on the About page!</p>     
-
-    </div>
+ </style>
+    <button onclick="shake()">Shake!</button>
+    <div id="fortune-display">A fortune goes here</div>
 </body>
 </html>
